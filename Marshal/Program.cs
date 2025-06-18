@@ -1,12 +1,11 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using LinuxDedicatedServer.Legacy.Handlers;
+using LinuxDedicatedServer.Legacy.Interfaces;
+using LinuxDedicatedServer.Legacy.Models;
+using LinuxDedicatedServer.Legacy.Services;
+using LinuxDedicatedServer.Legacy.Utility;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System.Threading.Channels;
-using LinuxDedicatedServer.Api;
-using LinuxDedicatedServer.Legacy.Models;
-using LinuxDedicatedServer.Legacy.Handlers;
-using LinuxDedicatedServer.Legacy.Utility;
-using LinuxDedicatedServer.Legacy.Services;
-using LinuxDedicatedServer.Legacy.Interfaces;
 
 namespace LinuxDedicatedServer
 {
